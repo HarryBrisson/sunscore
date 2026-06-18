@@ -1,0 +1,452 @@
+[
+  {
+    "area_type": "ward",
+    "area_id": "01",
+    "display_name": "Ward 1",
+    "ground_cell_count": 6738,
+    "summer_solstice_sun_access_pct": 87.25,
+    "winter_solstice_sun_access_pct": 65.03,
+    "annual_sun_access_pct": 81.26
+  },
+  {
+    "area_type": "ward",
+    "area_id": "02",
+    "display_name": "Ward 2",
+    "ground_cell_count": 2851,
+    "summer_solstice_sun_access_pct": 73.4,
+    "winter_solstice_sun_access_pct": 43.18,
+    "annual_sun_access_pct": 63.64
+  },
+  {
+    "area_type": "ward",
+    "area_id": "03",
+    "display_name": "Ward 3",
+    "ground_cell_count": 15995,
+    "summer_solstice_sun_access_pct": 87.89,
+    "winter_solstice_sun_access_pct": 76.03,
+    "annual_sun_access_pct": 85.26
+  },
+  {
+    "area_type": "ward",
+    "area_id": "04",
+    "display_name": "Ward 4",
+    "ground_cell_count": 18358,
+    "summer_solstice_sun_access_pct": 80.49,
+    "winter_solstice_sun_access_pct": 70.27,
+    "annual_sun_access_pct": 78.32
+  },
+  {
+    "area_type": "ward",
+    "area_id": "05",
+    "display_name": "Ward 5",
+    "ground_cell_count": 15852,
+    "summer_solstice_sun_access_pct": 83.03,
+    "winter_solstice_sun_access_pct": 71.36,
+    "annual_sun_access_pct": 80.18
+  },
+  {
+    "area_type": "ward",
+    "area_id": "06",
+    "display_name": "Ward 6",
+    "ground_cell_count": 20556,
+    "summer_solstice_sun_access_pct": 91.19,
+    "winter_solstice_sun_access_pct": 78.13,
+    "annual_sun_access_pct": 88.03
+  },
+  {
+    "area_type": "ward",
+    "area_id": "07",
+    "display_name": "Ward 7",
+    "ground_cell_count": 21858,
+    "summer_solstice_sun_access_pct": 88.06,
+    "winter_solstice_sun_access_pct": 78.49,
+    "annual_sun_access_pct": 86.46
+  },
+  {
+    "area_type": "ward",
+    "area_id": "08",
+    "display_name": "Ward 8",
+    "ground_cell_count": 27792,
+    "summer_solstice_sun_access_pct": 91.56,
+    "winter_solstice_sun_access_pct": 81.08,
+    "annual_sun_access_pct": 89.66
+  },
+  {
+    "area_type": "ward",
+    "area_id": "09",
+    "display_name": "Ward 9",
+    "ground_cell_count": 41344,
+    "summer_solstice_sun_access_pct": 94.46,
+    "winter_solstice_sun_access_pct": 85.5,
+    "annual_sun_access_pct": 92.0
+  },
+  {
+    "area_type": "ward",
+    "area_id": "10",
+    "display_name": "Ward 10",
+    "ground_cell_count": 124334,
+    "summer_solstice_sun_access_pct": 96.0,
+    "winter_solstice_sun_access_pct": 91.37,
+    "annual_sun_access_pct": 94.96
+  },
+  {
+    "area_type": "ward",
+    "area_id": "11",
+    "display_name": "Ward 11",
+    "ground_cell_count": 20339,
+    "summer_solstice_sun_access_pct": 91.33,
+    "winter_solstice_sun_access_pct": 81.98,
+    "annual_sun_access_pct": 89.94
+  },
+  {
+    "area_type": "ward",
+    "area_id": "12",
+    "display_name": "Ward 12",
+    "ground_cell_count": 22224,
+    "summer_solstice_sun_access_pct": 94.61,
+    "winter_solstice_sun_access_pct": 84.7,
+    "annual_sun_access_pct": 91.98
+  },
+  {
+    "area_type": "ward",
+    "area_id": "13",
+    "display_name": "Ward 13",
+    "ground_cell_count": 28840,
+    "summer_solstice_sun_access_pct": 96.64,
+    "winter_solstice_sun_access_pct": 90.57,
+    "annual_sun_access_pct": 95.2
+  },
+  {
+    "area_type": "ward",
+    "area_id": "14",
+    "display_name": "Ward 14",
+    "ground_cell_count": 20020,
+    "summer_solstice_sun_access_pct": 94.98,
+    "winter_solstice_sun_access_pct": 86.14,
+    "annual_sun_access_pct": 92.77
+  },
+  {
+    "area_type": "ward",
+    "area_id": "15",
+    "display_name": "Ward 15",
+    "ground_cell_count": 12180,
+    "summer_solstice_sun_access_pct": 92.2,
+    "winter_solstice_sun_access_pct": 79.91,
+    "annual_sun_access_pct": 89.38
+  },
+  {
+    "area_type": "ward",
+    "area_id": "16",
+    "display_name": "Ward 16",
+    "ground_cell_count": 18326,
+    "summer_solstice_sun_access_pct": 91.48,
+    "winter_solstice_sun_access_pct": 76.7,
+    "annual_sun_access_pct": 87.49
+  },
+  {
+    "area_type": "ward",
+    "area_id": "17",
+    "display_name": "Ward 17",
+    "ground_cell_count": 20073,
+    "summer_solstice_sun_access_pct": 92.74,
+    "winter_solstice_sun_access_pct": 80.41,
+    "annual_sun_access_pct": 89.43
+  },
+  {
+    "area_type": "ward",
+    "area_id": "18",
+    "display_name": "Ward 18",
+    "ground_cell_count": 35298,
+    "summer_solstice_sun_access_pct": 95.49,
+    "winter_solstice_sun_access_pct": 87.61,
+    "annual_sun_access_pct": 93.54
+  },
+  {
+    "area_type": "ward",
+    "area_id": "19",
+    "display_name": "Ward 19",
+    "ground_cell_count": 31699,
+    "summer_solstice_sun_access_pct": 92.07,
+    "winter_solstice_sun_access_pct": 79.15,
+    "annual_sun_access_pct": 88.54
+  },
+  {
+    "area_type": "ward",
+    "area_id": "20",
+    "display_name": "Ward 20",
+    "ground_cell_count": 24290,
+    "summer_solstice_sun_access_pct": 90.18,
+    "winter_solstice_sun_access_pct": 81.06,
+    "annual_sun_access_pct": 89.27
+  },
+  {
+    "area_type": "ward",
+    "area_id": "21",
+    "display_name": "Ward 21",
+    "ground_cell_count": 35517,
+    "summer_solstice_sun_access_pct": 93.69,
+    "winter_solstice_sun_access_pct": 83.11,
+    "annual_sun_access_pct": 90.82
+  },
+  {
+    "area_type": "ward",
+    "area_id": "22",
+    "display_name": "Ward 22",
+    "ground_cell_count": 17821,
+    "summer_solstice_sun_access_pct": 94.69,
+    "winter_solstice_sun_access_pct": 85.68,
+    "annual_sun_access_pct": 92.3
+  },
+  {
+    "area_type": "ward",
+    "area_id": "23",
+    "display_name": "Ward 23",
+    "ground_cell_count": 21062,
+    "summer_solstice_sun_access_pct": 95.85,
+    "winter_solstice_sun_access_pct": 88.15,
+    "annual_sun_access_pct": 94.01
+  },
+  {
+    "area_type": "ward",
+    "area_id": "24",
+    "display_name": "Ward 24",
+    "ground_cell_count": 18149,
+    "summer_solstice_sun_access_pct": 93.07,
+    "winter_solstice_sun_access_pct": 79.43,
+    "annual_sun_access_pct": 89.53
+  },
+  {
+    "area_type": "ward",
+    "area_id": "25",
+    "display_name": "Ward 25",
+    "ground_cell_count": 13913,
+    "summer_solstice_sun_access_pct": 92.02,
+    "winter_solstice_sun_access_pct": 79.35,
+    "annual_sun_access_pct": 89.08
+  },
+  {
+    "area_type": "ward",
+    "area_id": "26",
+    "display_name": "Ward 26",
+    "ground_cell_count": 10545,
+    "summer_solstice_sun_access_pct": 91.37,
+    "winter_solstice_sun_access_pct": 76.52,
+    "annual_sun_access_pct": 87.39
+  },
+  {
+    "area_type": "ward",
+    "area_id": "27",
+    "display_name": "Ward 27",
+    "ground_cell_count": 24869,
+    "summer_solstice_sun_access_pct": 90.28,
+    "winter_solstice_sun_access_pct": 75.43,
+    "annual_sun_access_pct": 86.78
+  },
+  {
+    "area_type": "ward",
+    "area_id": "28",
+    "display_name": "Ward 28",
+    "ground_cell_count": 26742,
+    "summer_solstice_sun_access_pct": 92.72,
+    "winter_solstice_sun_access_pct": 80.71,
+    "annual_sun_access_pct": 89.85
+  },
+  {
+    "area_type": "ward",
+    "area_id": "29",
+    "display_name": "Ward 29",
+    "ground_cell_count": 18246,
+    "summer_solstice_sun_access_pct": 93.21,
+    "winter_solstice_sun_access_pct": 81.33,
+    "annual_sun_access_pct": 90.2
+  },
+  {
+    "area_type": "ward",
+    "area_id": "30",
+    "display_name": "Ward 30",
+    "ground_cell_count": 12965,
+    "summer_solstice_sun_access_pct": 92.82,
+    "winter_solstice_sun_access_pct": 79.61,
+    "annual_sun_access_pct": 89.43
+  },
+  {
+    "area_type": "ward",
+    "area_id": "31",
+    "display_name": "Ward 31",
+    "ground_cell_count": 10050,
+    "summer_solstice_sun_access_pct": 93.04,
+    "winter_solstice_sun_access_pct": 78.98,
+    "annual_sun_access_pct": 89.54
+  },
+  {
+    "area_type": "ward",
+    "area_id": "32",
+    "display_name": "Ward 32",
+    "ground_cell_count": 10561,
+    "summer_solstice_sun_access_pct": 88.53,
+    "winter_solstice_sun_access_pct": 74.09,
+    "annual_sun_access_pct": 85.81
+  },
+  {
+    "area_type": "ward",
+    "area_id": "33",
+    "display_name": "Ward 33",
+    "ground_cell_count": 7001,
+    "summer_solstice_sun_access_pct": 89.22,
+    "winter_solstice_sun_access_pct": 72.51,
+    "annual_sun_access_pct": 84.73
+  },
+  {
+    "area_type": "ward",
+    "area_id": "34",
+    "display_name": "Ward 34",
+    "ground_cell_count": 4814,
+    "summer_solstice_sun_access_pct": 77.13,
+    "winter_solstice_sun_access_pct": 53.44,
+    "annual_sun_access_pct": 69.62
+  },
+  {
+    "area_type": "ward",
+    "area_id": "35",
+    "display_name": "Ward 35",
+    "ground_cell_count": 9593,
+    "summer_solstice_sun_access_pct": 91.22,
+    "winter_solstice_sun_access_pct": 76.23,
+    "annual_sun_access_pct": 87.2
+  },
+  {
+    "area_type": "ward",
+    "area_id": "36",
+    "display_name": "Ward 36",
+    "ground_cell_count": 11657,
+    "summer_solstice_sun_access_pct": 92.86,
+    "winter_solstice_sun_access_pct": 79.82,
+    "annual_sun_access_pct": 89.54
+  },
+  {
+    "area_type": "ward",
+    "area_id": "37",
+    "display_name": "Ward 37",
+    "ground_cell_count": 14754,
+    "summer_solstice_sun_access_pct": 92.76,
+    "winter_solstice_sun_access_pct": 79.7,
+    "annual_sun_access_pct": 89.33
+  },
+  {
+    "area_type": "ward",
+    "area_id": "38",
+    "display_name": "Ward 38",
+    "ground_cell_count": 25293,
+    "summer_solstice_sun_access_pct": 93.51,
+    "winter_solstice_sun_access_pct": 82.34,
+    "annual_sun_access_pct": 90.63
+  },
+  {
+    "area_type": "ward",
+    "area_id": "39",
+    "display_name": "Ward 39",
+    "ground_cell_count": 22615,
+    "summer_solstice_sun_access_pct": 90.94,
+    "winter_solstice_sun_access_pct": 76.24,
+    "annual_sun_access_pct": 86.9
+  },
+  {
+    "area_type": "ward",
+    "area_id": "40",
+    "display_name": "Ward 40",
+    "ground_cell_count": 11555,
+    "summer_solstice_sun_access_pct": 87.62,
+    "winter_solstice_sun_access_pct": 71.26,
+    "annual_sun_access_pct": 83.72
+  },
+  {
+    "area_type": "ward",
+    "area_id": "41",
+    "display_name": "Ward 41",
+    "ground_cell_count": 104974,
+    "summer_solstice_sun_access_pct": 97.37,
+    "winter_solstice_sun_access_pct": 93.3,
+    "annual_sun_access_pct": 96.13
+  },
+  {
+    "area_type": "ward",
+    "area_id": "42",
+    "display_name": "Ward 42",
+    "ground_cell_count": 6913,
+    "summer_solstice_sun_access_pct": 67.87,
+    "winter_solstice_sun_access_pct": 40.35,
+    "annual_sun_access_pct": 57.01
+  },
+  {
+    "area_type": "ward",
+    "area_id": "43",
+    "display_name": "Ward 43",
+    "ground_cell_count": 6469,
+    "summer_solstice_sun_access_pct": 76.39,
+    "winter_solstice_sun_access_pct": 60.79,
+    "annual_sun_access_pct": 71.72
+  },
+  {
+    "area_type": "ward",
+    "area_id": "44",
+    "display_name": "Ward 44",
+    "ground_cell_count": 4706,
+    "summer_solstice_sun_access_pct": 80.57,
+    "winter_solstice_sun_access_pct": 57.11,
+    "annual_sun_access_pct": 72.94
+  },
+  {
+    "area_type": "ward",
+    "area_id": "45",
+    "display_name": "Ward 45",
+    "ground_cell_count": 18188,
+    "summer_solstice_sun_access_pct": 92.03,
+    "winter_solstice_sun_access_pct": 78.29,
+    "annual_sun_access_pct": 88.43
+  },
+  {
+    "area_type": "ward",
+    "area_id": "46",
+    "display_name": "Ward 46",
+    "ground_cell_count": 7414,
+    "summer_solstice_sun_access_pct": 82.04,
+    "winter_solstice_sun_access_pct": 63.55,
+    "annual_sun_access_pct": 77.07
+  },
+  {
+    "area_type": "ward",
+    "area_id": "47",
+    "display_name": "Ward 47",
+    "ground_cell_count": 8571,
+    "summer_solstice_sun_access_pct": 87.48,
+    "winter_solstice_sun_access_pct": 68.36,
+    "annual_sun_access_pct": 82.71
+  },
+  {
+    "area_type": "ward",
+    "area_id": "48",
+    "display_name": "Ward 48",
+    "ground_cell_count": 4717,
+    "summer_solstice_sun_access_pct": 75.52,
+    "winter_solstice_sun_access_pct": 60.86,
+    "annual_sun_access_pct": 71.66
+  },
+  {
+    "area_type": "ward",
+    "area_id": "49",
+    "display_name": "Ward 49",
+    "ground_cell_count": 4777,
+    "summer_solstice_sun_access_pct": 79.39,
+    "winter_solstice_sun_access_pct": 58.98,
+    "annual_sun_access_pct": 73.39
+  },
+  {
+    "area_type": "ward",
+    "area_id": "50",
+    "display_name": "Ward 50",
+    "ground_cell_count": 9210,
+    "summer_solstice_sun_access_pct": 89.64,
+    "winter_solstice_sun_access_pct": 74.65,
+    "annual_sun_access_pct": 85.9
+  }
+]

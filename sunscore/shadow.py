@@ -32,8 +32,20 @@ def _shift_filled(array: np.ndarray, drow: int, dcol: int, fill: float) -> np.nd
     return out
 
 
-def lit_mask(dsm: np.ndarray, cellsize: float, azimuth_deg: float, altitude_deg: float) -> np.ndarray:
-    """Boolean grid: True where the cell sees the sun at (azimuth, altitude)."""
+def lit_mask(
+    dsm: np.ndarray,
+    cellsize: float,
+    azimuth_deg: float,
+    altitude_deg: float,
+    *,
+    max_shadow_m: float | None = None,
+) -> np.ndarray:
+    """Boolean grid: True where the cell sees the sun at (azimuth, altitude).
+
+    `max_shadow_m` caps how far upwind we look for shadow-casters — bounds compute
+    on large rasters at the cost of truncating the longest low-sun shadows from the
+    very tallest structures (a small fraction of cells).
+    """
     if altitude_deg <= 0:
         return np.zeros(dsm.shape, dtype=bool)
 
@@ -46,6 +58,8 @@ def lit_mask(dsm: np.ndarray, cellsize: float, azimuth_deg: float, altitude_deg:
     # March outward toward the sun, tracking the tallest height any upwind terrain
     # projects back down to this cell along the ray. If that exceeds the cell, shadow.
     max_height = dsm.shape[0] * cellsize  # a building can't shadow farther than the grid
+    if max_shadow_m is not None:
+        max_height = min(max_height, max_shadow_m)
     max_steps = int(min(max(dsm.shape), max_height / (tan_alt + 1e-9) / cellsize)) + 1
 
     projected = np.full(dsm.shape, -np.inf)
@@ -63,12 +77,16 @@ def lit_mask(dsm: np.ndarray, cellsize: float, azimuth_deg: float, altitude_deg:
 
 
 def sun_access_fraction(
-    dsm: np.ndarray, cellsize: float, positions: list[tuple[float, float]]
+    dsm: np.ndarray,
+    cellsize: float,
+    positions: list[tuple[float, float]],
+    *,
+    max_shadow_m: float | None = None,
 ) -> np.ndarray:
     """Fraction of sun positions (in [0,1]) where each cell is lit."""
     if not positions:
         return np.zeros(dsm.shape)
     lit_total = np.zeros(dsm.shape, dtype=np.float64)
     for azimuth_deg, altitude_deg in positions:
-        lit_total += lit_mask(dsm, cellsize, azimuth_deg, altitude_deg)
+        lit_total += lit_mask(dsm, cellsize, azimuth_deg, altitude_deg, max_shadow_m=max_shadow_m)
     return lit_total / len(positions)

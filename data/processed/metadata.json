@@ -1,0 +1,31 @@
+{
+  "source": "ISGS ArcGIS ImageServer IL_Cook_DSM_2022 / IL_Cook_DTM_2022 (2022 LiDAR)",
+  "resolution_m": 18.21,
+  "ground_threshold_m": 2.5,
+  "max_shadow_m": 600.0,
+  "sun_sampling": {
+    "step_minutes": 60,
+    "metric_days": {
+      "summer_solstice": [
+        "2026-06-21"
+      ],
+      "winter_solstice": [
+        "2026-12-21"
+      ],
+      "annual": [
+        "2026-01-21",
+        "2026-04-21",
+        "2026-07-21",
+        "2026-10-21"
+      ]
+    },
+    "min_altitude_deg": 5.0
+  },
+  "grid": {
+    "shape": [
+      2324,
+      1916
+    ],
+    "crs": "EPSG:26916"
+  }
+}

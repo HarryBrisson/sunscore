@@ -1,0 +1,533 @@
+[
+  {
+    "area_type": "zip",
+    "area_id": "60607",
+    "display_name": "60607",
+    "ground_cell_count": 9120,
+    "summer_solstice_sun_access_pct": 86.55,
+    "winter_solstice_sun_access_pct": 68.25,
+    "annual_sun_access_pct": 82.23
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60661",
+    "display_name": "60661",
+    "ground_cell_count": 1180,
+    "summer_solstice_sun_access_pct": 74.1,
+    "winter_solstice_sun_access_pct": 46.13,
+    "annual_sun_access_pct": 64.01
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60606",
+    "display_name": "60606",
+    "ground_cell_count": 809,
+    "summer_solstice_sun_access_pct": 47.56,
+    "winter_solstice_sun_access_pct": 18.73,
+    "annual_sun_access_pct": 36.13
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60615",
+    "display_name": "60615",
+    "ground_cell_count": 8746,
+    "summer_solstice_sun_access_pct": 83.82,
+    "winter_solstice_sun_access_pct": 69.52,
+    "annual_sun_access_pct": 80.56
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60643",
+    "display_name": "60643",
+    "ground_cell_count": 30203,
+    "summer_solstice_sun_access_pct": 92.27,
+    "winter_solstice_sun_access_pct": 79.65,
+    "annual_sun_access_pct": 88.73
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60621",
+    "display_name": "60621",
+    "ground_cell_count": 16776,
+    "summer_solstice_sun_access_pct": 91.33,
+    "winter_solstice_sun_access_pct": 78.37,
+    "annual_sun_access_pct": 88.08
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60629",
+    "display_name": "60629",
+    "ground_cell_count": 34856,
+    "summer_solstice_sun_access_pct": 94.79,
+    "winter_solstice_sun_access_pct": 85.58,
+    "annual_sun_access_pct": 92.5
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60619",
+    "display_name": "60619",
+    "ground_cell_count": 24068,
+    "summer_solstice_sun_access_pct": 90.66,
+    "winter_solstice_sun_access_pct": 77.95,
+    "annual_sun_access_pct": 87.97
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60642",
+    "display_name": "60642",
+    "ground_cell_count": 7267,
+    "summer_solstice_sun_access_pct": 88.45,
+    "winter_solstice_sun_access_pct": 75.63,
+    "annual_sun_access_pct": 86.58
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60660",
+    "display_name": "60660",
+    "ground_cell_count": 3854,
+    "summer_solstice_sun_access_pct": 79.72,
+    "winter_solstice_sun_access_pct": 61.76,
+    "annual_sun_access_pct": 74.63
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60604",
+    "display_name": "60604",
+    "ground_cell_count": 414,
+    "summer_solstice_sun_access_pct": 57.61,
+    "winter_solstice_sun_access_pct": 36.75,
+    "annual_sun_access_pct": 48.57
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60633",
+    "display_name": "60633",
+    "ground_cell_count": 41477,
+    "summer_solstice_sun_access_pct": 97.03,
+    "winter_solstice_sun_access_pct": 92.08,
+    "annual_sun_access_pct": 95.73
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60624",
+    "display_name": "60624",
+    "ground_cell_count": 16031,
+    "summer_solstice_sun_access_pct": 93.23,
+    "winter_solstice_sun_access_pct": 80.52,
+    "annual_sun_access_pct": 89.95
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60644",
+    "display_name": "60644",
+    "ground_cell_count": 15221,
+    "summer_solstice_sun_access_pct": 92.82,
+    "winter_solstice_sun_access_pct": 79.22,
+    "annual_sun_access_pct": 89.34
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60603",
+    "display_name": "60603",
+    "ground_cell_count": 585,
+    "summer_solstice_sun_access_pct": 65.89,
+    "winter_solstice_sun_access_pct": 55.92,
+    "annual_sun_access_pct": 60.51
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60827",
+    "display_name": "60827",
+    "ground_cell_count": 8128,
+    "summer_solstice_sun_access_pct": 94.68,
+    "winter_solstice_sun_access_pct": 85.98,
+    "annual_sun_access_pct": 92.31
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60666",
+    "display_name": "60666",
+    "ground_cell_count": 74441,
+    "summer_solstice_sun_access_pct": 99.04,
+    "winter_solstice_sun_access_pct": 97.22,
+    "annual_sun_access_pct": 98.29
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60625",
+    "display_name": "60625",
+    "ground_cell_count": 11888,
+    "summer_solstice_sun_access_pct": 88.56,
+    "winter_solstice_sun_access_pct": 71.44,
+    "annual_sun_access_pct": 84.51
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60641",
+    "display_name": "60641",
+    "ground_cell_count": 15150,
+    "summer_solstice_sun_access_pct": 92.57,
+    "winter_solstice_sun_access_pct": 78.45,
+    "annual_sun_access_pct": 88.91
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60659",
+    "display_name": "60659",
+    "ground_cell_count": 8933,
+    "summer_solstice_sun_access_pct": 89.55,
+    "winter_solstice_sun_access_pct": 75.35,
+    "annual_sun_access_pct": 86.06
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60613",
+    "display_name": "60613",
+    "ground_cell_count": 5710,
+    "summer_solstice_sun_access_pct": 83.48,
+    "winter_solstice_sun_access_pct": 64.56,
+    "annual_sun_access_pct": 77.81
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60632",
+    "display_name": "60632",
+    "ground_cell_count": 36168,
+    "summer_solstice_sun_access_pct": 95.3,
+    "winter_solstice_sun_access_pct": 86.82,
+    "annual_sun_access_pct": 93.15
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60609",
+    "display_name": "60609",
+    "ground_cell_count": 35997,
+    "summer_solstice_sun_access_pct": 91.9,
+    "winter_solstice_sun_access_pct": 83.05,
+    "annual_sun_access_pct": 90.75
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60626",
+    "display_name": "60626",
+    "ground_cell_count": 4712,
+    "summer_solstice_sun_access_pct": 79.4,
+    "winter_solstice_sun_access_pct": 59.66,
+    "annual_sun_access_pct": 73.65
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60610",
+    "display_name": "60610",
+    "ground_cell_count": 3656,
+    "summer_solstice_sun_access_pct": 80.76,
+    "winter_solstice_sun_access_pct": 60.2,
+    "annual_sun_access_pct": 74.52
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60654",
+    "display_name": "60654",
+    "ground_cell_count": 1859,
+    "summer_solstice_sun_access_pct": 76.29,
+    "winter_solstice_sun_access_pct": 41.51,
+    "annual_sun_access_pct": 65.03
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60651",
+    "display_name": "60651",
+    "ground_cell_count": 13972,
+    "summer_solstice_sun_access_pct": 92.35,
+    "winter_solstice_sun_access_pct": 78.49,
+    "annual_sun_access_pct": 88.74
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60623",
+    "display_name": "60623",
+    "ground_cell_count": 24601,
+    "summer_solstice_sun_access_pct": 93.29,
+    "winter_solstice_sun_access_pct": 81.35,
+    "annual_sun_access_pct": 90.08
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60611",
+    "display_name": "60611",
+    "ground_cell_count": 2741,
+    "summer_solstice_sun_access_pct": 66.93,
+    "winter_solstice_sun_access_pct": 29.58,
+    "annual_sun_access_pct": 53.12
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60630",
+    "display_name": "60630",
+    "ground_cell_count": 18111,
+    "summer_solstice_sun_access_pct": 92.37,
+    "winter_solstice_sun_access_pct": 79.76,
+    "annual_sun_access_pct": 89.09
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60640",
+    "display_name": "60640",
+    "ground_cell_count": 9215,
+    "summer_solstice_sun_access_pct": 81.69,
+    "winter_solstice_sun_access_pct": 63.07,
+    "annual_sun_access_pct": 76.8
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60657",
+    "display_name": "60657",
+    "ground_cell_count": 5525,
+    "summer_solstice_sun_access_pct": 81.65,
+    "winter_solstice_sun_access_pct": 56.6,
+    "annual_sun_access_pct": 74.26
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60656",
+    "display_name": "60656",
+    "ground_cell_count": 12097,
+    "summer_solstice_sun_access_pct": 93.69,
+    "winter_solstice_sun_access_pct": 82.05,
+    "annual_sun_access_pct": 90.68
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60649",
+    "display_name": "60649",
+    "ground_cell_count": 10706,
+    "summer_solstice_sun_access_pct": 82.77,
+    "winter_solstice_sun_access_pct": 71.73,
+    "annual_sun_access_pct": 80.77
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60646",
+    "display_name": "60646",
+    "ground_cell_count": 13533,
+    "summer_solstice_sun_access_pct": 90.61,
+    "winter_solstice_sun_access_pct": 75.04,
+    "annual_sun_access_pct": 86.32
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60634",
+    "display_name": "60634",
+    "ground_cell_count": 28555,
+    "summer_solstice_sun_access_pct": 93.62,
+    "winter_solstice_sun_access_pct": 82.45,
+    "annual_sun_access_pct": 90.75
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60637",
+    "display_name": "60637",
+    "ground_cell_count": 18777,
+    "summer_solstice_sun_access_pct": 87.26,
+    "winter_solstice_sun_access_pct": 75.58,
+    "annual_sun_access_pct": 85.06
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60628",
+    "display_name": "60628",
+    "ground_cell_count": 63892,
+    "summer_solstice_sun_access_pct": 95.22,
+    "winter_solstice_sun_access_pct": 87.14,
+    "annual_sun_access_pct": 93.04
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60617",
+    "display_name": "60617",
+    "ground_cell_count": 88265,
+    "summer_solstice_sun_access_pct": 93.53,
+    "winter_solstice_sun_access_pct": 87.76,
+    "annual_sun_access_pct": 92.57
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60653",
+    "display_name": "60653",
+    "ground_cell_count": 11035,
+    "summer_solstice_sun_access_pct": 82.69,
+    "winter_solstice_sun_access_pct": 73.95,
+    "annual_sun_access_pct": 81.02
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60620",
+    "display_name": "60620",
+    "ground_cell_count": 30859,
+    "summer_solstice_sun_access_pct": 93.23,
+    "winter_solstice_sun_access_pct": 82.33,
+    "annual_sun_access_pct": 90.23
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60638",
+    "display_name": "60638",
+    "ground_cell_count": 32202,
+    "summer_solstice_sun_access_pct": 96.54,
+    "winter_solstice_sun_access_pct": 90.04,
+    "annual_sun_access_pct": 94.94
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60652",
+    "display_name": "60652",
+    "ground_cell_count": 24229,
+    "summer_solstice_sun_access_pct": 95.83,
+    "winter_solstice_sun_access_pct": 88.55,
+    "annual_sun_access_pct": 94.11
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60636",
+    "display_name": "60636",
+    "ground_cell_count": 15847,
+    "summer_solstice_sun_access_pct": 92.46,
+    "winter_solstice_sun_access_pct": 79.47,
+    "annual_sun_access_pct": 89.05
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60602",
+    "display_name": "60602",
+    "ground_cell_count": 661,
+    "summer_solstice_sun_access_pct": 66.54,
+    "winter_solstice_sun_access_pct": 57.55,
+    "annual_sun_access_pct": 61.18
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60601",
+    "display_name": "60601",
+    "ground_cell_count": 1217,
+    "summer_solstice_sun_access_pct": 62.91,
+    "winter_solstice_sun_access_pct": 32.11,
+    "annual_sun_access_pct": 48.6
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60645",
+    "display_name": "60645",
+    "ground_cell_count": 7480,
+    "summer_solstice_sun_access_pct": 88.96,
+    "winter_solstice_sun_access_pct": 72.19,
+    "annual_sun_access_pct": 84.52
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60647",
+    "display_name": "60647",
+    "ground_cell_count": 12253,
+    "summer_solstice_sun_access_pct": 89.58,
+    "winter_solstice_sun_access_pct": 72.08,
+    "annual_sun_access_pct": 84.88
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60639",
+    "display_name": "60639",
+    "ground_cell_count": 18474,
+    "summer_solstice_sun_access_pct": 93.5,
+    "winter_solstice_sun_access_pct": 82.03,
+    "annual_sun_access_pct": 90.56
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60618",
+    "display_name": "60618",
+    "ground_cell_count": 17340,
+    "summer_solstice_sun_access_pct": 90.61,
+    "winter_solstice_sun_access_pct": 75.88,
+    "annual_sun_access_pct": 86.96
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60616",
+    "display_name": "60616",
+    "ground_cell_count": 16993,
+    "summer_solstice_sun_access_pct": 85.92,
+    "winter_solstice_sun_access_pct": 73.14,
+    "annual_sun_access_pct": 82.52
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60608",
+    "display_name": "60608",
+    "ground_cell_count": 28933,
+    "summer_solstice_sun_access_pct": 93.37,
+    "winter_solstice_sun_access_pct": 82.79,
+    "annual_sun_access_pct": 91.07
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60614",
+    "display_name": "60614",
+    "ground_cell_count": 10408,
+    "summer_solstice_sun_access_pct": 81.5,
+    "winter_solstice_sun_access_pct": 67.47,
+    "annual_sun_access_pct": 78.05
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60605",
+    "display_name": "60605",
+    "ground_cell_count": 5879,
+    "summer_solstice_sun_access_pct": 79.71,
+    "winter_solstice_sun_access_pct": 67.41,
+    "annual_sun_access_pct": 76.76
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60631",
+    "display_name": "60631",
+    "ground_cell_count": 16434,
+    "summer_solstice_sun_access_pct": 92.88,
+    "winter_solstice_sun_access_pct": 81.2,
+    "annual_sun_access_pct": 89.65
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60655",
+    "display_name": "60655",
+    "ground_cell_count": 19692,
+    "summer_solstice_sun_access_pct": 93.67,
+    "winter_solstice_sun_access_pct": 83.49,
+    "annual_sun_access_pct": 91.0
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60612",
+    "display_name": "60612",
+    "ground_cell_count": 17146,
+    "summer_solstice_sun_access_pct": 92.68,
+    "winter_solstice_sun_access_pct": 78.27,
+    "annual_sun_access_pct": 89.07
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60622",
+    "display_name": "60622",
+    "ground_cell_count": 7967,
+    "summer_solstice_sun_access_pct": 88.72,
+    "winter_solstice_sun_access_pct": 68.73,
+    "annual_sun_access_pct": 83.46
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60707",
+    "display_name": "60707",
+    "ground_cell_count": 7555,
+    "summer_solstice_sun_access_pct": 93.78,
+    "winter_solstice_sun_access_pct": 83.72,
+    "annual_sun_access_pct": 91.24
+  }
+]

@@ -1,0 +1,695 @@
+[
+  {
+    "area_type": "community_area",
+    "area_id": "01",
+    "display_name": "Rogers Park",
+    "ground_cell_count": 4884,
+    "summer_solstice_sun_access_pct": 79.39,
+    "winter_solstice_sun_access_pct": 59.23,
+    "annual_sun_access_pct": 73.49
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "02",
+    "display_name": "West Ridge",
+    "ground_cell_count": 12107,
+    "summer_solstice_sun_access_pct": 88.83,
+    "winter_solstice_sun_access_pct": 73.29,
+    "annual_sun_access_pct": 84.91
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "03",
+    "display_name": "Uptown",
+    "ground_cell_count": 8448,
+    "summer_solstice_sun_access_pct": 82.21,
+    "winter_solstice_sun_access_pct": 63.72,
+    "annual_sun_access_pct": 77.28
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "04",
+    "display_name": "Lincoln Square",
+    "ground_cell_count": 8105,
+    "summer_solstice_sun_access_pct": 87.27,
+    "winter_solstice_sun_access_pct": 69.71,
+    "annual_sun_access_pct": 83.39
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "05",
+    "display_name": "North Center",
+    "ground_cell_count": 6110,
+    "summer_solstice_sun_access_pct": 88.93,
+    "winter_solstice_sun_access_pct": 71.94,
+    "annual_sun_access_pct": 85.16
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "06",
+    "display_name": "Lake View",
+    "ground_cell_count": 7943,
+    "summer_solstice_sun_access_pct": 81.16,
+    "winter_solstice_sun_access_pct": 57.86,
+    "annual_sun_access_pct": 74.22
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "07",
+    "display_name": "Lincoln Park",
+    "ground_cell_count": 9541,
+    "summer_solstice_sun_access_pct": 80.78,
+    "winter_solstice_sun_access_pct": 65.89,
+    "annual_sun_access_pct": 76.92
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "08",
+    "display_name": "Near North Side",
+    "ground_cell_count": 9045,
+    "summer_solstice_sun_access_pct": 76.42,
+    "winter_solstice_sun_access_pct": 49.28,
+    "annual_sun_access_pct": 67.59
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "09",
+    "display_name": "Edison Park",
+    "ground_cell_count": 4562,
+    "summer_solstice_sun_access_pct": 92.73,
+    "winter_solstice_sun_access_pct": 80.26,
+    "annual_sun_access_pct": 89.28
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "10",
+    "display_name": "Norwood Park",
+    "ground_cell_count": 19263,
+    "summer_solstice_sun_access_pct": 93.65,
+    "winter_solstice_sun_access_pct": 82.89,
+    "annual_sun_access_pct": 90.86
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "11",
+    "display_name": "Jefferson Park",
+    "ground_cell_count": 9306,
+    "summer_solstice_sun_access_pct": 92.78,
+    "winter_solstice_sun_access_pct": 81.07,
+    "annual_sun_access_pct": 89.92
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "12",
+    "display_name": "Forest Glen",
+    "ground_cell_count": 9722,
+    "summer_solstice_sun_access_pct": 89.89,
+    "winter_solstice_sun_access_pct": 73.02,
+    "annual_sun_access_pct": 85.13
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "13",
+    "display_name": "North Park",
+    "ground_cell_count": 9339,
+    "summer_solstice_sun_access_pct": 91.51,
+    "winter_solstice_sun_access_pct": 77.74,
+    "annual_sun_access_pct": 87.75
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "14",
+    "display_name": "Albany Park",
+    "ground_cell_count": 5850,
+    "summer_solstice_sun_access_pct": 89.76,
+    "winter_solstice_sun_access_pct": 72.77,
+    "annual_sun_access_pct": 84.99
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "15",
+    "display_name": "Portage Park",
+    "ground_cell_count": 15380,
+    "summer_solstice_sun_access_pct": 93.13,
+    "winter_solstice_sun_access_pct": 79.67,
+    "annual_sun_access_pct": 89.83
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "16",
+    "display_name": "Irving Park",
+    "ground_cell_count": 10874,
+    "summer_solstice_sun_access_pct": 90.48,
+    "winter_solstice_sun_access_pct": 75.54,
+    "annual_sun_access_pct": 86.48
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "17",
+    "display_name": "Dunning",
+    "ground_cell_count": 16950,
+    "summer_solstice_sun_access_pct": 94.14,
+    "winter_solstice_sun_access_pct": 83.94,
+    "annual_sun_access_pct": 91.56
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "18",
+    "display_name": "Montclare",
+    "ground_cell_count": 4298,
+    "summer_solstice_sun_access_pct": 93.44,
+    "winter_solstice_sun_access_pct": 82.64,
+    "annual_sun_access_pct": 90.66
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "19",
+    "display_name": "Belmont Cragin",
+    "ground_cell_count": 16023,
+    "summer_solstice_sun_access_pct": 93.72,
+    "winter_solstice_sun_access_pct": 82.27,
+    "annual_sun_access_pct": 90.82
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "20",
+    "display_name": "Hermosa",
+    "ground_cell_count": 4278,
+    "summer_solstice_sun_access_pct": 91.99,
+    "winter_solstice_sun_access_pct": 78.52,
+    "annual_sun_access_pct": 88.31
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "21",
+    "display_name": "Avondale",
+    "ground_cell_count": 7408,
+    "summer_solstice_sun_access_pct": 92.15,
+    "winter_solstice_sun_access_pct": 78.27,
+    "annual_sun_access_pct": 88.43
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "22",
+    "display_name": "Logan Square",
+    "ground_cell_count": 11815,
+    "summer_solstice_sun_access_pct": 89.73,
+    "winter_solstice_sun_access_pct": 73.56,
+    "annual_sun_access_pct": 85.69
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "23",
+    "display_name": "Humboldt Park",
+    "ground_cell_count": 15234,
+    "summer_solstice_sun_access_pct": 93.32,
+    "winter_solstice_sun_access_pct": 81.64,
+    "annual_sun_access_pct": 90.32
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "24",
+    "display_name": "West Town",
+    "ground_cell_count": 15842,
+    "summer_solstice_sun_access_pct": 88.58,
+    "winter_solstice_sun_access_pct": 70.77,
+    "annual_sun_access_pct": 84.42
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "25",
+    "display_name": "Austin",
+    "ground_cell_count": 29732,
+    "summer_solstice_sun_access_pct": 92.83,
+    "winter_solstice_sun_access_pct": 79.84,
+    "annual_sun_access_pct": 89.51
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "26",
+    "display_name": "West Garfield Park",
+    "ground_cell_count": 5666,
+    "summer_solstice_sun_access_pct": 93.05,
+    "winter_solstice_sun_access_pct": 79.33,
+    "annual_sun_access_pct": 89.54
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "27",
+    "display_name": "East Garfield Park",
+    "ground_cell_count": 8889,
+    "summer_solstice_sun_access_pct": 93.23,
+    "winter_solstice_sun_access_pct": 79.68,
+    "annual_sun_access_pct": 89.76
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "28",
+    "display_name": "Near West Side",
+    "ground_cell_count": 24598,
+    "summer_solstice_sun_access_pct": 89.22,
+    "winter_solstice_sun_access_pct": 73.44,
+    "annual_sun_access_pct": 85.37
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "29",
+    "display_name": "North Lawndale",
+    "ground_cell_count": 14557,
+    "summer_solstice_sun_access_pct": 92.95,
+    "winter_solstice_sun_access_pct": 79.89,
+    "annual_sun_access_pct": 89.43
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "30",
+    "display_name": "South Lawndale",
+    "ground_cell_count": 21234,
+    "summer_solstice_sun_access_pct": 94.44,
+    "winter_solstice_sun_access_pct": 84.53,
+    "annual_sun_access_pct": 91.83
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "31",
+    "display_name": "Lower West Side",
+    "ground_cell_count": 12572,
+    "summer_solstice_sun_access_pct": 92.51,
+    "winter_solstice_sun_access_pct": 80.21,
+    "annual_sun_access_pct": 89.55
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "32",
+    "display_name": "Loop",
+    "ground_cell_count": 6292,
+    "summer_solstice_sun_access_pct": 68.32,
+    "winter_solstice_sun_access_pct": 50.62,
+    "annual_sun_access_pct": 61.0
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "33",
+    "display_name": "Near South Side",
+    "ground_cell_count": 7938,
+    "summer_solstice_sun_access_pct": 83.37,
+    "winter_solstice_sun_access_pct": 69.6,
+    "annual_sun_access_pct": 79.91
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "34",
+    "display_name": "Armour Square",
+    "ground_cell_count": 4825,
+    "summer_solstice_sun_access_pct": 89.61,
+    "winter_solstice_sun_access_pct": 80.53,
+    "annual_sun_access_pct": 87.56
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "35",
+    "display_name": "Douglas",
+    "ground_cell_count": 8111,
+    "summer_solstice_sun_access_pct": 84.48,
+    "winter_solstice_sun_access_pct": 73.63,
+    "annual_sun_access_pct": 81.39
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "36",
+    "display_name": "Oakland",
+    "ground_cell_count": 3194,
+    "summer_solstice_sun_access_pct": 76.17,
+    "winter_solstice_sun_access_pct": 76.02,
+    "annual_sun_access_pct": 78.14
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "37",
+    "display_name": "Fuller Park",
+    "ground_cell_count": 4084,
+    "summer_solstice_sun_access_pct": 90.84,
+    "winter_solstice_sun_access_pct": 87.4,
+    "annual_sun_access_pct": 92.86
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "38",
+    "display_name": "Grand Boulevard",
+    "ground_cell_count": 7666,
+    "summer_solstice_sun_access_pct": 87.5,
+    "winter_solstice_sun_access_pct": 74.95,
+    "annual_sun_access_pct": 84.86
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "39",
+    "display_name": "Kenwood",
+    "ground_cell_count": 3709,
+    "summer_solstice_sun_access_pct": 79.89,
+    "winter_solstice_sun_access_pct": 67.09,
+    "annual_sun_access_pct": 76.72
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "40",
+    "display_name": "Washington Park",
+    "ground_cell_count": 7049,
+    "summer_solstice_sun_access_pct": 88.87,
+    "winter_solstice_sun_access_pct": 79.07,
+    "annual_sun_access_pct": 88.18
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "41",
+    "display_name": "Hyde Park",
+    "ground_cell_count": 5225,
+    "summer_solstice_sun_access_pct": 81.02,
+    "winter_solstice_sun_access_pct": 63.63,
+    "annual_sun_access_pct": 76.15
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "42",
+    "display_name": "Woodlawn",
+    "ground_cell_count": 9044,
+    "summer_solstice_sun_access_pct": 86.26,
+    "winter_solstice_sun_access_pct": 75.26,
+    "annual_sun_access_pct": 83.39
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "43",
+    "display_name": "South Shore",
+    "ground_cell_count": 10444,
+    "summer_solstice_sun_access_pct": 83.98,
+    "winter_solstice_sun_access_pct": 72.13,
+    "annual_sun_access_pct": 81.89
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "44",
+    "display_name": "Chatham",
+    "ground_cell_count": 12550,
+    "summer_solstice_sun_access_pct": 92.41,
+    "winter_solstice_sun_access_pct": 79.98,
+    "annual_sun_access_pct": 89.19
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "45",
+    "display_name": "Avalon Park",
+    "ground_cell_count": 5290,
+    "summer_solstice_sun_access_pct": 89.6,
+    "winter_solstice_sun_access_pct": 80.28,
+    "annual_sun_access_pct": 89.04
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "46",
+    "display_name": "South Chicago",
+    "ground_cell_count": 16126,
+    "summer_solstice_sun_access_pct": 85.43,
+    "winter_solstice_sun_access_pct": 81.81,
+    "annual_sun_access_pct": 86.04
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "47",
+    "display_name": "Burnside",
+    "ground_cell_count": 2591,
+    "summer_solstice_sun_access_pct": 92.83,
+    "winter_solstice_sun_access_pct": 82.12,
+    "annual_sun_access_pct": 90.05
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "48",
+    "display_name": "Calumet Heights",
+    "ground_cell_count": 7869,
+    "summer_solstice_sun_access_pct": 90.93,
+    "winter_solstice_sun_access_pct": 82.04,
+    "annual_sun_access_pct": 90.41
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "49",
+    "display_name": "Roseland",
+    "ground_cell_count": 22095,
+    "summer_solstice_sun_access_pct": 93.4,
+    "winter_solstice_sun_access_pct": 82.1,
+    "annual_sun_access_pct": 90.41
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "50",
+    "display_name": "Pullman",
+    "ground_cell_count": 10827,
+    "summer_solstice_sun_access_pct": 95.57,
+    "winter_solstice_sun_access_pct": 88.03,
+    "annual_sun_access_pct": 93.47
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "51",
+    "display_name": "South Deering",
+    "ground_cell_count": 68663,
+    "summer_solstice_sun_access_pct": 97.01,
+    "winter_solstice_sun_access_pct": 92.6,
+    "annual_sun_access_pct": 95.94
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "52",
+    "display_name": "East Side",
+    "ground_cell_count": 15962,
+    "summer_solstice_sun_access_pct": 95.14,
+    "winter_solstice_sun_access_pct": 87.55,
+    "annual_sun_access_pct": 93.09
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "53",
+    "display_name": "West Pullman",
+    "ground_cell_count": 15410,
+    "summer_solstice_sun_access_pct": 92.77,
+    "winter_solstice_sun_access_pct": 80.67,
+    "annual_sun_access_pct": 89.58
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "54",
+    "display_name": "Riverdale",
+    "ground_cell_count": 19343,
+    "summer_solstice_sun_access_pct": 96.12,
+    "winter_solstice_sun_access_pct": 90.25,
+    "annual_sun_access_pct": 94.44
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "55",
+    "display_name": "Hegewisch",
+    "ground_cell_count": 31197,
+    "summer_solstice_sun_access_pct": 96.74,
+    "winter_solstice_sun_access_pct": 91.09,
+    "annual_sun_access_pct": 95.27
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "56",
+    "display_name": "Garfield Ridge",
+    "ground_cell_count": 22515,
+    "summer_solstice_sun_access_pct": 96.21,
+    "winter_solstice_sun_access_pct": 89.5,
+    "annual_sun_access_pct": 94.52
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "57",
+    "display_name": "Archer Heights",
+    "ground_cell_count": 9796,
+    "summer_solstice_sun_access_pct": 95.75,
+    "winter_solstice_sun_access_pct": 88.2,
+    "annual_sun_access_pct": 93.86
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "58",
+    "display_name": "Brighton Park",
+    "ground_cell_count": 12044,
+    "summer_solstice_sun_access_pct": 94.51,
+    "winter_solstice_sun_access_pct": 84.06,
+    "annual_sun_access_pct": 91.82
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "59",
+    "display_name": "Mckinley Park",
+    "ground_cell_count": 6221,
+    "summer_solstice_sun_access_pct": 93.49,
+    "winter_solstice_sun_access_pct": 81.56,
+    "annual_sun_access_pct": 90.22
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "60",
+    "display_name": "Bridgeport",
+    "ground_cell_count": 8500,
+    "summer_solstice_sun_access_pct": 90.92,
+    "winter_solstice_sun_access_pct": 80.8,
+    "annual_sun_access_pct": 89.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "61",
+    "display_name": "New City",
+    "ground_cell_count": 21782,
+    "summer_solstice_sun_access_pct": 92.29,
+    "winter_solstice_sun_access_pct": 82.45,
+    "annual_sun_access_pct": 90.59
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "62",
+    "display_name": "West Elsdon",
+    "ground_cell_count": 5821,
+    "summer_solstice_sun_access_pct": 95.57,
+    "winter_solstice_sun_access_pct": 87.62,
+    "annual_sun_access_pct": 93.65
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "63",
+    "display_name": "Gage Park",
+    "ground_cell_count": 9506,
+    "summer_solstice_sun_access_pct": 93.74,
+    "winter_solstice_sun_access_pct": 83.61,
+    "annual_sun_access_pct": 91.17
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "64",
+    "display_name": "Clearing",
+    "ground_cell_count": 13953,
+    "summer_solstice_sun_access_pct": 96.89,
+    "winter_solstice_sun_access_pct": 90.77,
+    "annual_sun_access_pct": 95.47
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "65",
+    "display_name": "West Lawn",
+    "ground_cell_count": 14811,
+    "summer_solstice_sun_access_pct": 96.19,
+    "winter_solstice_sun_access_pct": 89.4,
+    "annual_sun_access_pct": 94.68
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "66",
+    "display_name": "Chicago Lawn",
+    "ground_cell_count": 15239,
+    "summer_solstice_sun_access_pct": 93.6,
+    "winter_solstice_sun_access_pct": 82.36,
+    "annual_sun_access_pct": 90.66
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "67",
+    "display_name": "West Englewood",
+    "ground_cell_count": 12868,
+    "summer_solstice_sun_access_pct": 91.83,
+    "winter_solstice_sun_access_pct": 77.63,
+    "annual_sun_access_pct": 88.06
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "68",
+    "display_name": "Englewood",
+    "ground_cell_count": 13223,
+    "summer_solstice_sun_access_pct": 90.83,
+    "winter_solstice_sun_access_pct": 76.55,
+    "annual_sun_access_pct": 87.17
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "69",
+    "display_name": "Greater Grand Crossing",
+    "ground_cell_count": 15583,
+    "summer_solstice_sun_access_pct": 90.73,
+    "winter_solstice_sun_access_pct": 80.61,
+    "annual_sun_access_pct": 89.21
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "70",
+    "display_name": "Ashburn",
+    "ground_cell_count": 25496,
+    "summer_solstice_sun_access_pct": 95.68,
+    "winter_solstice_sun_access_pct": 88.21,
+    "annual_sun_access_pct": 93.89
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "71",
+    "display_name": "Auburn Gresham",
+    "ground_cell_count": 16198,
+    "summer_solstice_sun_access_pct": 92.59,
+    "winter_solstice_sun_access_pct": 80.32,
+    "annual_sun_access_pct": 89.23
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "72",
+    "display_name": "Beverly",
+    "ground_cell_count": 10312,
+    "summer_solstice_sun_access_pct": 89.35,
+    "winter_solstice_sun_access_pct": 72.01,
+    "annual_sun_access_pct": 84.48
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "73",
+    "display_name": "Washington Heights",
+    "ground_cell_count": 13183,
+    "summer_solstice_sun_access_pct": 93.62,
+    "winter_solstice_sun_access_pct": 82.86,
+    "annual_sun_access_pct": 90.66
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "74",
+    "display_name": "Mount Greenwood",
+    "ground_cell_count": 13652,
+    "summer_solstice_sun_access_pct": 94.68,
+    "winter_solstice_sun_access_pct": 85.93,
+    "annual_sun_access_pct": 92.44
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "75",
+    "display_name": "Morgan Park",
+    "ground_cell_count": 14101,
+    "summer_solstice_sun_access_pct": 92.4,
+    "winter_solstice_sun_access_pct": 80.49,
+    "annual_sun_access_pct": 89.07
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "76",
+    "display_name": "Ohare",
+    "ground_cell_count": 83964,
+    "summer_solstice_sun_access_pct": 98.19,
+    "winter_solstice_sun_access_pct": 94.96,
+    "annual_sun_access_pct": 97.06
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "77",
+    "display_name": "Edgewater",
+    "ground_cell_count": 4730,
+    "summer_solstice_sun_access_pct": 78.56,
+    "winter_solstice_sun_access_pct": 61.52,
+    "annual_sun_access_pct": 73.62
+  }
+]
