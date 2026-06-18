@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/processed/
+*.tif
+*.laz
+*.las
+.DS_Store
