@@ -7,6 +7,11 @@ ward-wise-civic-tech / Penlight. We take a LiDAR **digital surface model** (grou
 buildings + trees), **simulate the sun** across the day and seasons, cast shadows, and
 measure the share of daylight each place actually receives.
 
+![Annual sun-access by Chicago community area](images/chicago_sun_access_by_community_area.png)
+
+*Annual ground-level sun-access by community area — dark = shadiest (the Loop and Near
+North Side, hemmed in by towers), gold = sunniest (O'Hare and the low-rise periphery).*
+
 ## Metrics (planned)
 
 | metric | meaning | toward "sunnier" |
@@ -30,6 +35,11 @@ Published per ward, community area, and zip (ward feeds Penlight).
 **Validated** on synthetic geometry (`tests/`): a 20 m block under a 45° southern sun
 casts an exactly 20 m shadow to the north; lower sun → longer shadow; open ground gets
 far more sun than a spot tucked behind a building.
+
+Here's the raw simulation on a 1 km tile of the Loop — the street grid stays lit while the
+towers throw the canyons into shade (summer, ground + rooftops):
+
+![Loop summer sun-access](images/loop_summer_sun_access.png)
 
 ## Status
 

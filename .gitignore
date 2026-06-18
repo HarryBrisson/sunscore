@@ -5,6 +5,7 @@ __pycache__/
 data/raw/
 *.tif
 *.png
+!images/*.png
 *.laz
 *.las
 .DS_Store
