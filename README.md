@@ -33,13 +33,18 @@ far more sun than a spot tucked behind a building.
 
 ## Status
 
-Proof-of-concept **engine complete and tested**. Next: feed it a real Chicago DSM tile,
-then scale citywide (downsampled to ~5–10 m), mask to ground level, and run zonal stats
-to the three geographies.
+Proof-of-concept **complete and validated on real Chicago geometry.** Ran the engine on a
+1 km Loop DSM tile (2022 LiDAR, 1 m) and reproduced the expected pattern: summer rooftops
+average ~47% sun-access vs ~26% at street level — the towers genuinely shadow the canyons —
+and the rendered map shows the street grid lit while building blocks fall into shade.
 
-**Data:** 2017 USGS 3DEP Northeast-IL LiDAR (Cook County). DSM GeoTIFF derivatives are
-available from the [Illinois ISGS Clearinghouse](https://clearinghouse.isgs.illinois.edu/data/elevation/illinois-height-modernization-ilhmp);
-the raw point cloud (first returns → DSM) is on USGS 3DEP. Drop a tile in `data/raw/`.
+Next: scale citywide (downsampled to ~5–10 m), mask to ground level (DSM − DTM), and run
+zonal stats to the three geographies, then wire the ward rollup into Penlight.
+
+**Data:** 2022 Cook County LiDAR DSM via the ISGS ArcGIS ImageServer `exportImage` REST API
+(`sunscore/dsm.py` pulls a GeoTIFF for any bbox — no manual download). Elevations are in
+feet; `load_dsm` converts to metres. The DTM (bare-earth) service alongside it gives the
+ground surface for the eventual ground-level mask.
 
 ## Run the tests
 
