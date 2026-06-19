@@ -56,6 +56,32 @@ zonal stats to the three geographies, then wire the ward rollup into Penlight.
 feet; `load_dsm` converts to metres. The DTM (bare-earth) service alongside it gives the
 ground surface for the eventual ground-level mask.
 
+## Bring your own polygons
+
+sunscore publishes fixed ward / community-area / ZIP rollups, but the value behind them is a per-cell
+grid of direct-sun fraction on every ~18 m ground cell — so it can be re-aggregated to **any** polygons.
+A run persists the grids as `data/processed/layers/sun_access_<metric>.tif`, and an aggregator (e.g.
+[ward-wise / Penlight](https://penlight.wardwise.org)) can zonal-mean them over its own cells for native
+per-polygon sun-access instead of an areal estimate.
+
+```python
+import json
+from sunscore.aggregation import aggregate_to_polygons
+
+cells = json.load(open("my_polygons.geojson"))             # any FeatureCollection
+values = aggregate_to_polygons(cells, id_field="cell_id")  # {cell_id: {"annual_sun_access_pct": ..., ...}}
+```
+
+```bash
+python -m sunscore.aggregation --polygons my_polygons.geojson --id-field cell_id
+```
+
+All three metrics are BYOP (`annual_`, `summer_solstice_`, `winter_solstice_sun_access_pct`) — the
+combine is an area-weighted mean, which on the uniform grid is just the mean of the ground cells whose
+centroid falls in the polygon. `aggregation.AGGREGATION_SPEC` documents this and the fine-layer files.
+Verified against the 288 chiGRID cells: the Loop comes out darkest (~68% annual, towers shadowing the
+canyons) and open outer cells brightest (~95%).
+
 ## Run the tests
 
 ```bash

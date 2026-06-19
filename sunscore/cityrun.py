@@ -114,6 +114,24 @@ def _label_grid(geojson_path: Path, id_keys, transform, crs, shape_hw) -> tuple[
     return label, areas
 
 
+def write_access_layers(output_dir: Path, access: dict, ground_mask, transform, crs) -> Path:
+    """Persist the per-cell sun-access grids as GeoTIFFs (one per metric, NaN off the ground mask) so a
+    consumer can re-aggregate them to its OWN polygons without re-running the LiDAR simulation. This is
+    sunscore's "fine layer" — the equivalent of the point layers parkability publishes."""
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    height, width = ground_mask.shape
+    for metric, grid in access.items():
+        masked = np.where(ground_mask, grid.astype("float32"), np.float32("nan"))
+        with rasterio.open(
+            output_dir / f"sun_access_{metric}.tif", "w", driver="GTiff",
+            height=height, width=width, count=1, dtype="float32",
+            crs=crs, transform=transform, nodata=float("nan"), compress="deflate",
+        ) as dst:
+            dst.write(masked, 1)
+    return output_dir
+
+
 def run(*, cell_m: float = 12.0, output_dir: Path | str = PROCESSED) -> dict:
     dsm_path, dtm_path = fetch_city(cell_m)
     with rasterio.open(dsm_path) as dataset:
@@ -134,6 +152,8 @@ def run(*, cell_m: float = 12.0, output_dir: Path | str = PROCESSED) -> dict:
 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    # Publish the per-cell grids so consumers can bring their own polygons (see sunscore/aggregation.py).
+    write_access_layers(output_dir / "layers", access, ground_mask, transform, crs)
     summaries = {}
     for geo_key, (filename, id_keys, name_keys) in GEOGRAPHIES.items():
         label, areas = _label_grid(REFERENCE / filename, (id_keys, name_keys), transform, crs, shape_hw)
