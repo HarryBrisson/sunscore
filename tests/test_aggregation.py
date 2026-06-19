@@ -42,6 +42,7 @@ def test_aggregate_to_polygons_zonal_mean(tmp_path):
 
 def test_aggregation_spec_declares_all_metrics_byop():
     expected = {f"{metric}_sun_access_pct" for metric in METRIC_DAYS}
-    assert set(AGGREGATION_SPEC["byop_metrics"]) == expected
+    assert AGGREGATION_SPEC["contract"] == "byop/v1"
+    assert set(AGGREGATION_SPEC["metrics"]) == expected
     assert AGGREGATION_SPEC["fixed_geography_metrics"] == {}
-    assert all(spec["combine"] == "area_weighted_mean" for spec in AGGREGATION_SPEC["byop_metrics"].values())
+    assert all(spec["combine"] == "mean" for spec in AGGREGATION_SPEC["metrics"].values())

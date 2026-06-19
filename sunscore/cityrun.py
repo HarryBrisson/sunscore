@@ -129,6 +129,9 @@ def write_access_layers(output_dir: Path, access: dict, ground_mask, transform, 
             crs=crs, transform=transform, nodata=float("nan"), compress="deflate",
         ) as dst:
             dst.write(masked, 1)
+    # publish the byop/v1 contract alongside the grids (lazy import avoids a cityrun<->aggregation cycle)
+    from .aggregation import AGGREGATION_SPEC
+    (output_dir / "aggregation_spec.json").write_text(json.dumps(AGGREGATION_SPEC, indent=2))
     return output_dir
 
 

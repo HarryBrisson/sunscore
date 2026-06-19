@@ -28,24 +28,27 @@ LAYERS_DIR = PROCESSED / "layers"
 METRICS: tuple[str, ...] = tuple(METRIC_DAYS)  # summer_solstice, winter_solstice, annual
 
 AGGREGATION_SPEC: dict[str, Any] = {
+    "contract": "byop/v1",
     "source": "sunscore",
     "source_url": "https://github.com/HarryBrisson/sunscore",
-    "byop_metrics": {
+    "layers": {
+        f"sun_{metric}": {
+            "file": f"sun_access_{metric}.tif",
+            "kind": "raster",
+            "value": "per-cell direct-sun fraction, NaN off the ground/street-level mask",
+        }
+        for metric in METRICS
+    },
+    "metrics": {
         f"{metric}_sun_access_pct": {
+            "layer": f"sun_{metric}",
+            "combine": "mean",  # uniform grid -> area-weighted mean is the plain mean of in-polygon cells
+            "scale": 100,
             "unit": "percent",
-            "combine": "area_weighted_mean",
-            "weight": "uniform_grid_cells",  # equal-area cells -> plain mean of in-polygon ground cells
-            "layer": f"sun_access_{metric}",
         }
         for metric in METRICS
     },
     "fixed_geography_metrics": {},
-    "fine_layer": {
-        "type": "raster_grid",
-        "format": "geotiff",
-        "value": "per-cell direct-sun fraction, NaN off the ground/street-level mask",
-        "files": {metric: f"sun_access_{metric}.tif" for metric in METRICS},
-    },
 }
 
 
